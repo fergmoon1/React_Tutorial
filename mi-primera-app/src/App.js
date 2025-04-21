@@ -1,13 +1,16 @@
 import React from 'react';
-import './MiComponente.css';
+import './App.css';
+import MiComponente from './MiComponente';
 
-function MiComponente() {
-    return (
-        <div className="mi-componente">
-            <h2>Este es mi primer componente</h2>
-            <p>¡Estoy aprendiendo React!</p>
-        </div>
-    );
+function App() {
+  return (
+      <div className="App">
+        <header className="App-header">
+          <h1>Mi Aplicación React</h1>
+          <MiComponente />
+        </header>
+      </div>
+  );
 }
 
-export default MiComponente;
+export default App;

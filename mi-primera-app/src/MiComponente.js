@@ -1,4 +1,5 @@
 import React from 'react';
+import './MiComponente.css';
 
 function MiComponente() {
     return (
